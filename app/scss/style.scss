@@ -3,6 +3,7 @@
 
 .header {
    background-color: $bg;
+   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.07);
 }
 .header__inner {
    display: flex;
@@ -46,7 +47,7 @@
 .header__drop-down.drop-down + .header__drop-down.drop-down {
    margin-left: 12px;
 }
-.header__drop-down.drop-down + .header__link-blog{
+.header__drop-down.drop-down + .header__link-blog {
    margin-left: 20px;
 }
 .header__drop-down {
@@ -107,4 +108,33 @@ ul.drop-down__list {
    border-top: 5px solid $blue;
    background-color: #fff;
    transition: all 0.3s ease;
+}
+
+.slider {
+   background-color: $blue2;
+   padding: 20px 0 40px;
+}
+.container {
+}
+.slider__inner {
+}
+.slider__item {
+   background: url("../images/slider/1.jpg") center no-repeat;
+   background-size: cover;
+   min-height: 440px;
+}
+.slider__item-title {
+   font-family: 'Lato', sans-serif;
+   font-size: 50px;
+   font-weight: 700;
+   color: #fff;
+   width: 300px;
+   margin-left: 60px;
+   padding: 100px 0;
+}
+.slick-dots li button{
+   width: 14px;
+   height: 14px;
+   border-radius: 50%;
+   background-color: rgb(98, 98, 98, 0.5);
 }
