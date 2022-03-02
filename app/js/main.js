@@ -13,6 +13,8 @@ $(function () {
    $('.works__inner').slick({
       sliderToScroll: 4,
       slidesToShow: 4,
-      adaptiveHeight: true
+      adaptiveHeight: true,
+      prevArrow: '<button class="slick-arrow slick-prev"><img src="images/works/left.svg" alt=""></button>',
+      nextArrow: '<button class="slick-arrow slick-next"><img src="images/works/right.svg" alt=""></button>',
    });
 });
