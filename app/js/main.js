@@ -16,6 +16,26 @@ $(function () {
       adaptiveHeight: true,
       prevArrow: '<button class="slick-arrow slick-prev"><img src="images/works/left.svg" alt=""></button>',
       nextArrow: '<button class="slick-arrow slick-next"><img src="images/works/right.svg" alt=""></button>',
+      responsive: [
+         {
+            breakpoint: 911,
+            settings: {
+               slidesToShow: 3,
+            }
+         },
+         {
+            breakpoint: 681,
+            settings: {
+               slidesToShow: 2,
+            }
+         },
+         {
+            breakpoint: 460,
+            settings: {
+               slidesToShow: 1,
+            }
+         }
+      ]
    });
 
    $('.header__menu-btn').on('click', function () {

@@ -31,19 +31,14 @@
    margin-bottom: 4px;
    background-color: #000;
 }
-.header__menu {
+.header__menu > ul {
    margin-right: 10px;
-}
-.header__menu ul{
-   display: none;
-}
-.header__menu li + li {
-   margin-left: 50px;
-}
-.menu__list {
    display: flex;
    justify-content: space-between;
    align-items: center;
+}
+.header__menu li + li {
+   margin-left: 50px;
 }
 .menu__list-link a {
    font-family: "Arial", sans-serif;
@@ -297,7 +292,7 @@ ul.drop-down__list {
    justify-content: space-between;
 }
 .testimonials {
-   max-width: 440px;
+   width: 440px;
 }
 .testimonials__title,
 .clients-logo__title {
